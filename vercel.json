@@ -4,6 +4,14 @@
     {
       "source": "/:match*",
       "destination": "https://api.bltcy.ai/:match*"
+    },
+    {
+      "source": "/v1/:match*",
+      "destination": "https://api.bltcy.ai/v1/:match*"
+    },
+    {
+      "source": "/models/:match*",
+      "destination": "https://api.bltcy.ai/v1/models/:match*"
     }
   ]
 }
